@@ -1,0 +1,47 @@
+ .first{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    height: 300; 
+	width:300;
+}
+.class{
+  justify-content: center;
+  align-items: center;
+}
+a.telegram:link, a:hover {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+a.insta:link, a:hover {
+  background-color: #C13584;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+.asd{
+  text-align:center;
+}
+.onf{
+	text-align:center;
+	color:DodgerBlue;
+}
+.cnf{
+	text-align:center;
+	color:#C13584;
+}
+.inf{
+	text-align:center;
+}
+.hrd{
+	text-align:center;
+}
+.jrf{
+	text-align:center;
+}
