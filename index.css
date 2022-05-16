@@ -1,47 +1,37 @@
- .first{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-    height: 300; 
-	width:350;
-}
-.class{
-  justify-content: center;
-  align-items: center;
-}
-a.telegram:link, a:hover {
-  background-color: DodgerBlue;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-}
-a.insta:link, a:hover {
-  background-color: #C13584;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-}
-.asd{
+.Title{
+  font-style:italic;
   text-align:center;
 }
-.onf{
-	text-align:center;
-	color:DodgerBlue;
+.Image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300; 
+  width:350;
 }
-.cnf{
-	text-align:center;
-	color:#C13584;
+a.Telegram:link, a:hover {
+  position:fixed;
+  bottom:47px;
+  left:0px;
+  font-style:italic;
+  width:140;
+  background: #17a2b8;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
 }
-.inf{
-	text-align:center;
+a.Instagram:link, a:hover {
+  font-style:italic;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+  background: #C13584;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
 }
-.hrd{
-	text-align:center;
-}
-.jrf{
-	text-align:center;
+.Text-Blow{
+  font-style:italic;
+  text-align:center;
 }
