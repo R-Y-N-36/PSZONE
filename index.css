@@ -1,37 +1,238 @@
-.Title{
-  font-style:italic;
-  text-align:center;
+@font-face {
+	font-family: IRAN Sans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('Fonts/IRAN Sans Regular/iran_sans_regular-webfont.eot');
+	src: url('Fonts/IRAN Sans Regular/IRAN_Sans_Regular.otf') format('opentype'), 
+	url('Fonts/IRAN Sans Regular/iran_sans_regular-webfont.woff2') format('woff2'), 
+	url('Fonts/IRAN Sans Regular/iran_sans_regular-webfont.woff') format('woff'), 
+	url('Fonts/IRAN Sans Regular/iran_sans_regular-webfont.ttf') format('truetype');
+   }
+   @font-face {
+	font-family: IRAN Sans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('Fonts/IRAN Sans Bold/iran_sans_bold-webfont.eot');
+	src: url('Fonts/IRAN Sans Bold/IRAN_Sans_Bold.otf') format('opentype'), 
+	url('Fonts/IRAN Sans Bold/iran_sans_bold-webfont.woff2') format('woff2'), 
+	url('Fonts/IRAN Sans Bold/iran_sans_bold-webfont.woff') format('woff'), 
+	url('Fonts/IRAN Sans Bold/iran_sans_bold-webfont.ttf') format('truetype');
+   }
+body{
+	font-family: 'IRAN Sans', Arial, sans-serif;
+	font-weight:normal;
+	line-height: 1.8em;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	justify-self: center;
+	align-items: center;
+	width: 100%;
+	margin-left: -8px !important;
+	max-width: 1920px;
+	min-width: 480px;
+
 }
-.Image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300; 
-  width:350;
+h1{
+	text-align: right;
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	position: relative;
+	top: 10px;
 }
-a.Telegram:link, a:hover {
-  position:fixed;
-  bottom:47px;
-  left:0px;
-  font-style:italic;
-  width:144;
-  background: #17a2b8;
-  color: white;
-  padding: 14px 25px;
-  text-decoration: none;
+h2{
+	text-align: right;
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-bottom: 0px;
 }
-a.Instagram:link, a:hover {
-  font-style:italic;
-  position:fixed;
-  bottom:0px;
-  left:0px;
-  text-align: center;
-  background: #C13584;
-  color: white;
-  padding: 14px 25px;
-  text-decoration: none;
+h3{
+	text-align: right;
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-bottom: 0px;
 }
-.Text-Blow{
-  font-style:italic;
-  text-align:center;
+p{
+	text-align: right;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 35px;
+}
+hr {
+	border-top: 1px solid #ededed;
+}
+.Icon{
+	width:55px;
+	height: 50px;
+	vertical-align: sub;
+}
+.footer-text{
+	text-align: center;
+	color: white;
+}
+.container{
+	background-color:black;
+	height:auto;
+}
+.Instagram{
+	width: 240px !important;
+	height: 40px !important;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+}
+.Telegram{
+	width: 240px !important;
+	height: 40px !important;
+	border-radius: 10px !important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+}
+.logo{
+	border-radius:10px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section{
+	margin: 0px;
+	padding: 0px;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 0px;
+	direction: ltr !important;
+}
+.slider{
+	width: 1000px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	direction: ltr !important;
+}
+.slide{
+	width: 500%;
+	height: 500px;
+	display: flex;
+	padding-bottom: 0px;
+	direction: ltr !important;
+}
+.slide input{
+	display: none;
+}
+.st{
+	width: 20%;
+	transition: 2s;
+}
+.st image{
+	width: 1000px;
+	height: 500px;
+}
+.nav-m{
+	position: absolute;
+	width: 1000px;
+	margin-top: -40px;
+	justify-content: center;
+	display: flex;
+}
+.m-btn{
+	border: 2px solid black;
+	padding: 5px;;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+
+}
+.m-btn:not(:last-child){
+	margin-right: 30px;
+
+}
+.m-btn:hover {
+	background-color: black;
+}
+#radio1:checked ~.first{
+	margin-left: 0;
+}
+#radio2:checked ~.first{
+	margin-left: -20%;
+}
+#radio3:checked ~.first{
+	margin-left: -40%;
+}
+#radio4:checked ~.first{
+	margin-left: -60%;
+}
+#radio5:checked ~.first{
+	margin-left: -80%;
+}
+#radio6:checked ~.first{
+	margin-left: -100%;
+}
+#radio7:checked ~.first{
+	margin-left: -120%;
+}
+#radio8:checked ~.first{
+	margin-left: -140%;
+}
+#radio9:checked ~.first{
+	margin-left: -160%;
+}
+#radio10:checked ~.first{
+	margin-left: -180%;
+}
+.nav-auto{
+	position: absolute;
+	width: 1000px;
+	margin-top: 460px;
+	display: flex;
+	justify-content: center;
+
+}
+.nav-auto div{
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+.nav-auto div:not(:last-child){
+	margin-right: 30px;
+	justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+	background-color: red;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+	background-color: red;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+	background-color: red;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+	background-color: red;
+}
+#radio5:checked ~ .nav-auto .a-b5{
+	background-color: red;
+}
+#radio6:checked ~ .nav-auto .a-b6{
+	background-color: red;
+}
+#radio7:checked ~ .nav-auto .a-b7{
+	background-color: red;
+}
+#radio8:checked ~ .nav-auto .a-b8{
+	background-color: red;
+}
+#radio9:checked ~ .nav-auto .a-b9{
+	background-color: red;
+}
+#radio10:checked ~ .nav-auto .a-b10{
+	background-color: red;
 }
