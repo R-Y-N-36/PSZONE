@@ -293,7 +293,7 @@ and (max-device-width : 480px) {
 	}
 	.m-btn{
 		border: .5px solid black;
-		padding: 1px;;
+		padding: 1.5px;;
 		border-radius: 10px;
 		cursor: pointer;
 		transition: 1s;
@@ -309,7 +309,7 @@ and (max-device-width : 480px) {
 	}
 	.nav-auto div{
 		border: .5px solid black;
-		padding: 1px;
+		padding: 1.5px;
 		border-radius: 10px;
 		transition: 1s;
 	}
