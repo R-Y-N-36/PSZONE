@@ -30,7 +30,7 @@ body{
 	width: 100%;
 	margin-left: -8px !important;
 	max-width: 1920px;
-	min-width: 480px;
+	min-width: 360px;
 
 }
 h1{
@@ -235,4 +235,314 @@ hr {
 }
 #radio10:checked ~ .nav-auto .a-b10{
 	background-color: red;
+}
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 480px) {
+	h1{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.rights{
+		font-size: 12px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		padding-top: 25px ;
+		height: 25vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 360px;
+		height: 180px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 180px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 360px ;
+		height: 180px ;
+		background-position: center;
+		background-size: 10%;
+	}
+	.nav-m{
+		position: absolute;
+		width: 360px;
+		margin-top: -20px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: .5px solid black;
+		padding: 1px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 360px;
+		margin-top: 160px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: .5px solid black;
+		padding: 1px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+	.st{
+		width: 360px;
+		height: 180px;
+		transition: 2s;
+		background-position: center;
+		background-size: 10%;
+	}
+}
+@media only screen 
+and (min-device-width : 540px) 
+and (max-device-width : 660px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 33vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 540px;
+		height: 270px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 180px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 540px;
+		height: 270px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 540px;
+		margin-top: 60px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 1.5px solid black;
+		padding: 2px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 540px;
+		margin-top: 240px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 1.5px solid black;
+		padding: 2px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 888px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 45vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 768px;
+		height: 384px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 384px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 768px;
+		height: 384px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 768px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 768px;
+		margin-top: 350px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 912px) 
+and (max-device-width : 1024px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 55vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 912px;
+		height: 456px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 456px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 912px;
+		height: 456px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 912px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 912px;
+		margin-top: 420px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
 }
