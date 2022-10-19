@@ -255,7 +255,7 @@ and (max-device-width : 480px) {
 		margin: 0px;
 		padding: 0px;
 		padding-top: 25px ;
-		height: 25vh;
+		height: 22vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -339,7 +339,7 @@ and (max-device-width : 660px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 33vh;
+		height: 35vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -398,7 +398,7 @@ and (max-device-width : 660px) {
 }
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 888px) {
+and (max-device-width : 911px) {
 	h1{
 		font-size: 25px;
 	}
@@ -414,7 +414,7 @@ and (max-device-width : 888px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 45vh;
+		height: 51vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -489,7 +489,7 @@ and (max-device-width : 1024px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 55vh;
+		height: 60vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -535,6 +535,606 @@ and (max-device-width : 1024px) {
 		position: absolute;
 		width: 912px;
 		margin-top: 420px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1025px) 
+and (max-device-width : 1145px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 72vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1025px;
+		height: 512px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 512px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1025px;
+		height: 512px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1025px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1025px;
+		margin-top: 478px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1146px) 
+and (max-device-width : 1280px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 74vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1146px;
+		height: 573px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 573px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1146px;
+		height: 573px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1146px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1146px;
+		margin-top: 539px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1281px) 
+and (max-device-width : 1400px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 83vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1281px;
+		height: 640px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 640px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1281px;
+		height: 640px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1281px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1281px;
+		margin-top: 607px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1401px) 
+and (max-device-width : 1520px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1401px;
+		height: 700px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 700px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1401px;
+		height: 700px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1401px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1401px;
+		margin-top: 667px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1521px) 
+and (max-device-width : 1640px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 98vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1521px;
+		height: 760px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 760px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1521px;
+		height: 760px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1521px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1521px;
+		margin-top: 725px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1641px) 
+and (max-device-width : 1760px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 70vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1641px;
+		height: 820px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 820px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1641px;
+		height: 820px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1641px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1641px;
+		margin-top: 783px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1761px) 
+and (max-device-width : 1919px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 70vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1761px;
+		height: 880px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 880px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1761px;
+		height: 880px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1761px;
+		margin-top: -35px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1761px;
+		margin-top: 845px;
+		display: flex;
+		justify-content: center;
+	
+	}
+	.nav-auto div{
+		border: 2px solid black;
+		padding: 4.5px;
+		border-radius: 10px;
+		transition: 1s;
+	}
+}
+@media only screen 
+and (min-device-width : 1920px) 
+and (max-device-width : 1999px) {
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.rights{
+		font-size: 17px;
+	}
+	.section{
+		margin: 0px;
+		padding: 0px;
+		height: 85vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slider{
+		width: 1880px;
+		height: 940px;
+		border-radius: 10px;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.slide{
+		width: 500%;
+		height: 940px;
+		display: flex;
+		padding-bottom: 0px;
+		direction: ltr !important;
+	}
+	.st image{
+		width: 1880px;
+		height: 940px;
+	}
+	.nav-m{
+		position: absolute;
+		width: 1880px;
+		margin-top: -50px;
+		justify-content: center;
+		display: flex;
+	}
+	.m-btn{
+		border: 2px solid black;
+		padding: 4.5px;;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	
+	}
+	.nav-auto{
+		position: absolute;
+		width: 1880px;
+		margin-top: 890px;
 		display: flex;
 		justify-content: center;
 	
