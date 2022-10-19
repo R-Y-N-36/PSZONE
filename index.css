@@ -339,7 +339,7 @@ and (max-device-width : 660px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 40vh;
+		height: 36vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -414,7 +414,7 @@ and (max-device-width : 911px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 58vh;
+		height: 38vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -639,7 +639,7 @@ and (max-device-width : 1280px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 74vh;
+		height: 84vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -714,7 +714,7 @@ and (max-device-width : 1400px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 103vh;
+		height: 102vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -759,7 +759,7 @@ and (max-device-width : 1400px) {
 	.nav-auto{
 		position: absolute;
 		width: 1281px;
-		margin-top: 607px;
+		margin-top: 606px;
 		display: flex;
 		justify-content: center;
 	
@@ -789,7 +789,7 @@ and (max-device-width : 1520px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 90vh;
+		height: 112vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -864,7 +864,7 @@ and (max-device-width : 1640px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 98vh;
+		height: 121vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -939,7 +939,7 @@ and (max-device-width : 1760px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 70vh;
+		height: 131vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1014,7 +1014,7 @@ and (max-device-width : 1919px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 70vh;
+		height: 140vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1089,7 +1089,7 @@ and (max-device-width : 1999px) {
 	.section{
 		margin: 0px;
 		padding: 0px;
-		height: 88vh;
+		height: 160vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
